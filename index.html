@@ -1,243 +1,685 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- SEO -->
-  <title>Petronexus – Precision Earth Insights</title>
-  <meta name="description" content="Petronexus provides petrographic analysis, geotechnical investigation, hydrological surveys, and earth science consulting services in Kozhikode, Kerala, India.">
-  <meta name="keywords" content="Petronexus, Petrographic Analysis, Petrology, Geotechnical Investigation, Soil Testing, Hydrology, Earth Science, Kozhikode, Kerala, India">
-  <meta name="author" content="Petronexus">
+<!-- ================= SEO — CORE META ================= -->
+<title>Petronexus | Petrographic Analysis & Geotechnical Consulting in Kozhikode, Kerala</title>
+<meta name="description" content="Petronexus delivers petrographic analysis, geotechnical investigation, hydrological surveys, drone mapping and earth science consulting in Kozhikode, Kerala. Scientific coordination backed by NABL-accredited lab partners." />
+<meta name="keywords" content="Petronexus, petrographic analysis, petrology, thin section microscopy, geotechnical investigation, soil testing, borehole investigation, hydrology, groundwater survey, drone survey, earth science consulting, Kozhikode, Kerala, India" />
+<meta name="author" content="Petronexus" />
+<meta name="robots" content="index, follow" />
+<meta name="theme-color" content="#1b1815" />
 
-  <style>
-    * { margin:0; padding:0; box-sizing:border-box; }
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      color: #333333;
-      background: #F8F9FA;
-      line-height: 1.6;
-    }
-    .container {
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 0 20px;
-    }
-    header {
-      background: #ffffff;
-      border-bottom: 1px solid #ddd;
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-    }
-    nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 15px 0;
-    }
-    .logo {
-      font-size: 28px;
-      font-weight: 900;
-      color: #4A2C0B; /* deep brown */
-      letter-spacing: 1px;
-    }
-    .nav-links a {
-      margin-left: 30px;
-      text-decoration: none;
-      color: #4A4A4A;
-      font-weight: 500;
-    }
-    .nav-links a:hover {
-      color: #4A2C0B;
-    }
+<!-- EDIT-ME: replace with your real domain once you know it (e.g. after enabling GitHub Pages) -->
+<link rel="canonical" href="https://www.petronexus.in/" />
 
-    /* Hero */
-    #home {
-      padding: 120px 0 80px;
-      text-align: center;
-      background: linear-gradient(to bottom, #ffffff, #F8F9FA);
-    }
-    h1 {
-      font-size: 4.5rem;
-      font-weight: 900;
-      color: #4A2C0B;
-      margin-bottom: 10px;
-    }
-    .tagline {
-      font-size: 1.8rem;
-      color: #4A4A4A;
-      margin-bottom: 30px;
-    }
-    .intro {
-      max-width: 800px;
-      margin: 0 auto 40px;
-      font-size: 1.15rem;
-      color: #555;
-    }
+<!-- ================= SEO — OPEN GRAPH / SOCIAL SHARING ================= -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Petronexus" />
+<meta property="og:title" content="Petronexus | Precision Earth Insights" />
+<meta property="og:description" content="Petrographic analysis, geotechnical investigation, hydrological surveys and earth science consulting — Kozhikode, Kerala." />
+<meta property="og:url" content="https://www.petronexus.in/" />
+<meta property="og:locale" content="en_IN" />
 
-    /* Sections */
-    section {
-      padding: 80px 0;
-    }
-    h2 {
-      font-size: 2.5rem;
-      color: #4A2C0B;
-      text-align: center;
-      margin-bottom: 40px;
-    }
-    .content {
-      max-width: 900px;
-      margin: 0 auto;
-    }
-    ul.services {
-      list-style: none;
-    }
-    ul.services li {
-      margin-bottom: 25px;
-      font-size: 1.1rem;
-    }
-    ul.services li strong {
-      color: #4A2C0B;
-    }
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Petronexus | Precision Earth Insights" />
+<meta name="twitter:description" content="Petrographic analysis, geotechnical investigation, hydrological surveys and earth science consulting — Kozhikode, Kerala." />
 
-    /* Partners */
-    .partners-grid {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 40px;
-      justify-content: center;
-    }
-    .partner {
-      flex: 1 1 300px;
-      max-width: 400px;
-      text-align: center;
-    }
-    .partner img {
-      max-width: 180px;
-      height: auto;
-      margin-bottom: 15px;
-    }
+<!-- ================= SEO — STRUCTURED DATA (helps Google understand who you are) ================= -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Petronexus",
+  "description": "Petrographic analysis, geotechnical investigation, hydrological surveys and earth science consulting.",
+  "url": "https://www.petronexus.in/",
+  "email": "info@petronexus.in",
+  "telephone": "+91-00000-00000",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Kozhikode",
+    "addressRegion": "Kerala",
+    "addressCountry": "IN"
+  },
+  "areaServed": "Kerala, India",
+  "knowsAbout": ["Petrography", "Petrology", "Geotechnical Engineering", "Hydrology", "Drone Surveying"]
+}
+</script>
 
-    footer {
-      background: #333333;
-      color: white;
-      text-align: center;
-      padding: 30px 0;
-      margin-top: 60px;
-    }
+<!-- ================= FONTS ================= -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-    @media (max-width: 768px) {
-      h1 { font-size: 3.2rem; }
-      .nav-links { display: none; }
+<style>
+  :root{
+    --basalt:#1b1815;
+    --basalt-2:#242019;
+    --paper:#f4ede0;
+    --paper-2:#ece2cf;
+    --ink:#2a231c;
+    --ink-soft:#5b4f42;
+    --ochre:#bf7a2e;
+    --ochre-deep:#8f5a1f;
+    --malachite:#3e6b57;
+    --rust:#943621;
+    --line: rgba(42,35,28,0.14);
+    --line-light: rgba(244,237,224,0.18);
+  }
+
+  *{ margin:0; padding:0; box-sizing:border-box; }
+
+  html{ scroll-behavior:smooth; }
+
+  body{
+    font-family:'Inter', sans-serif;
+    background:var(--paper);
+    color:var(--ink);
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  h1,h2,h3,h4{
+    font-family:'Fraunces', serif;
+    color:var(--ink);
+    font-weight:600;
+    line-height:1.1;
+  }
+
+  a{ color:inherit; }
+
+  .container{
+    max-width:1140px;
+    margin:0 auto;
+    padding:0 24px;
+  }
+
+  .eyebrow{
+    font-family:'JetBrains Mono', monospace;
+    font-size:0.75rem;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    color:var(--ochre-deep);
+  }
+
+  .eyebrow.light{ color:var(--ochre); }
+
+  /* ============ SKIP LINK / ACCESSIBILITY ============ */
+  .skip-link{
+    position:absolute; left:-999px; top:auto;
+    background:var(--ochre); color:#fff; padding:10px 16px;
+    z-index:1000; font-family:'Inter',sans-serif; font-weight:600;
+  }
+  .skip-link:focus{ left:12px; top:12px; }
+
+  a:focus-visible, button:focus-visible{
+    outline:3px solid var(--ochre);
+    outline-offset:3px;
+  }
+
+  /* ============ HEADER ============ */
+  header{
+    background:rgba(244,237,224,0.92);
+    backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--line);
+    position:sticky;
+    top:0;
+    z-index:200;
+  }
+  nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 0;
+  }
+  .logo{
+    font-family:'Fraunces', serif;
+    font-size:1.5rem;
+    font-weight:700;
+    letter-spacing:0.02em;
+    color:var(--ink);
+    display:flex;
+    align-items:center;
+    gap:10px;
+    text-decoration:none;
+  }
+  .logo .mark{
+    display:inline-flex;
+    width:14px;height:14px;
+    background:linear-gradient(180deg, var(--ochre) 0 33%, var(--malachite) 33% 66%, var(--rust) 66% 100%);
+    border-radius:2px;
+    flex-shrink:0;
+  }
+  .nav-links{
+    display:flex;
+    align-items:center;
+    gap:34px;
+  }
+  .nav-links a{
+    text-decoration:none;
+    color:var(--ink-soft);
+    font-weight:500;
+    font-size:0.95rem;
+    position:relative;
+    padding-bottom:4px;
+  }
+  .nav-links a:hover{ color:var(--ink); }
+  .nav-links a.cta{
+    background:var(--ink);
+    color:var(--paper);
+    padding:9px 18px;
+    border-radius:3px;
+    font-weight:600;
+  }
+  .nav-links a.cta:hover{ background:var(--ochre-deep); }
+
+  .nav-toggle{
+    display:none;
+    background:none;
+    border:1px solid var(--line);
+    border-radius:4px;
+    width:42px; height:38px;
+    cursor:pointer;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:5px;
+  }
+  .nav-toggle span{
+    display:block; width:20px; height:2px; background:var(--ink);
+  }
+
+  /* ============ HERO ============ */
+  #home{
+    background:var(--basalt);
+    color:var(--paper);
+    padding:110px 0 100px;
+    overflow:hidden;
+  }
+  .hero-grid{
+    max-width:720px;
+    margin:0 auto;
+    text-align:center;
+  }
+  .hero-copy h1{
+    font-size:3.6rem;
+    color:var(--paper);
+    margin:18px 0 14px;
+    letter-spacing:-0.01em;
+  }
+  .hero-copy .tagline{
+    font-family:'Fraunces', serif;
+    font-style:italic;
+    font-weight:500;
+    font-size:1.35rem;
+    color:var(--ochre);
+    margin-bottom:22px;
+  }
+  .hero-copy p{
+    color:rgba(244,237,224,0.78);
+    font-size:1.05rem;
+    max-width:560px;
+    margin:0 auto 16px;
+  }
+  .hero-actions{
+    display:flex;
+    gap:14px;
+    margin-top:30px;
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+  .btn{
+    display:inline-block;
+    padding:13px 24px;
+    border-radius:3px;
+    font-weight:600;
+    font-size:0.95rem;
+    text-decoration:none;
+    transition:transform 0.15s ease;
+  }
+  .btn-primary{ background:var(--ochre); color:var(--basalt); }
+  .btn-primary:hover{ background:#d68f3d; }
+  .btn-outline{ border:1px solid rgba(244,237,224,0.35); color:var(--paper); }
+  .btn-outline:hover{ border-color:var(--paper); }
+
+  /* ============ SECTION GENERIC ============ */
+  section{ padding:96px 0; }
+  .section-head{
+    text-align:center;
+    max-width:640px;
+    margin:0 auto 56px;
+  }
+  .section-head .eyebrow{ display:block; margin-bottom:12px; }
+  .section-head h2{ font-size:2.3rem; margin-bottom:14px; }
+  .section-head p{ color:var(--ink-soft); font-size:1.05rem; }
+
+  .strata-rule{
+    height:4px;
+    width:64px;
+    margin:0 auto 0;
+    background:linear-gradient(90deg, var(--ochre), var(--malachite) 50%, var(--rust));
+    border-radius:2px;
+  }
+
+  /* ============ ABOUT ============ */
+  #about{ background:var(--paper-2); }
+  .about-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:56px;
+    align-items:start;
+  }
+  .about-grid p{ margin-bottom:16px; color:var(--ink-soft); }
+  .field-note{
+    background:var(--basalt);
+    color:var(--paper);
+    padding:32px;
+    border-radius:6px;
+    position:relative;
+  }
+  .field-note .eyebrow{ color:var(--ochre); margin-bottom:10px; display:block; }
+  .field-note h3{ color:var(--paper); font-size:1.5rem; margin-bottom:12px; }
+  .field-note p{ color:rgba(244,237,224,0.75); }
+
+  /* ============ SERVICES — logged as field entries ============ */
+  #services{ background:var(--paper); }
+  .log{
+    border-top:1px solid var(--line);
+  }
+  .log-entry{
+    display:grid;
+    grid-template-columns:150px 1fr;
+    gap:32px;
+    padding:30px 0;
+    border-bottom:1px solid var(--line);
+  }
+  .log-id{
+    font-family:'JetBrains Mono', monospace;
+    font-size:0.85rem;
+    color:var(--ochre-deep);
+    padding-top:4px;
+  }
+  .log-id .depth{
+    display:block;
+    color:var(--ink-soft);
+    font-size:0.78rem;
+    margin-top:6px;
+  }
+  .log-entry h3{
+    font-size:1.3rem;
+    margin-bottom:8px;
+  }
+  .log-entry p{ color:var(--ink-soft); }
+
+  /* ============ EDU CALLOUT ============ */
+  #edu{
+    background:var(--malachite);
+    color:var(--paper);
+  }
+  .edu-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:48px;
+    align-items:center;
+  }
+  #edu .eyebrow{ color:#cfe6da; }
+  #edu h2{ color:var(--paper); font-size:2.1rem; margin:12px 0 16px; }
+  #edu p{ color:rgba(244,237,224,0.85); margin-bottom:24px; }
+  #edu .btn-primary{ background:var(--paper); color:var(--malachite); }
+  #edu .btn-primary:hover{ background:#fff; }
+  .edu-list{ list-style:none; }
+  .edu-list li{
+    padding:14px 0;
+    border-top:1px solid rgba(244,237,224,0.25);
+    font-family:'JetBrains Mono', monospace;
+    font-size:0.85rem;
+    letter-spacing:0.02em;
+  }
+  .edu-list li:last-child{ border-bottom:1px solid rgba(244,237,224,0.25); }
+
+  /* ============ PARTNERS ============ */
+  #partners{ background:var(--paper-2); }
+  .partners-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:28px;
+  }
+  .partner-card{
+    background:var(--paper);
+    border:1px solid var(--line);
+    border-radius:6px;
+    padding:32px;
+  }
+  .partner-mark{
+    font-family:'JetBrains Mono', monospace;
+    font-weight:600;
+    font-size:0.95rem;
+    letter-spacing:0.06em;
+    color:var(--paper);
+    background:var(--ink);
+    display:inline-block;
+    padding:8px 14px;
+    border-radius:3px;
+    margin-bottom:16px;
+  }
+  .partner-card h3{ font-size:1.2rem; margin-bottom:6px; }
+  .partner-loc{
+    font-family:'JetBrains Mono', monospace;
+    font-size:0.75rem;
+    color:var(--ochre-deep);
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+    display:block;
+    margin-bottom:12px;
+  }
+  .partner-card p.desc{ color:var(--ink-soft); }
+
+  /* ============ CONTACT ============ */
+  #contact{ background:var(--basalt); color:var(--paper); }
+  .contact-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:56px;
+  }
+  #contact .eyebrow{ color:var(--ochre); }
+  #contact h2{ color:var(--paper); font-size:2.1rem; margin:12px 0 16px; }
+  #contact p{ color:rgba(244,237,224,0.78); margin-bottom:20px; }
+  .contact-detail{
+    display:flex;
+    gap:16px;
+    padding:16px 0;
+    border-top:1px solid var(--line-light);
+  }
+  .contact-detail:last-child{ border-bottom:1px solid var(--line-light); }
+  .contact-detail .k{
+    font-family:'JetBrains Mono', monospace;
+    font-size:0.75rem;
+    color:var(--ochre);
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+    width:110px;
+    flex-shrink:0;
+    padding-top:2px;
+  }
+  .contact-detail .v a{ color:var(--paper); text-decoration:none; font-weight:500; }
+  .contact-detail .v a:hover{ color:var(--ochre); }
+  .contact-detail .v small{ display:block; color:rgba(244,237,224,0.5); margin-top:4px; font-size:0.8rem; }
+
+  .coord-box{
+    background:var(--basalt-2);
+    border:1px solid var(--line-light);
+    border-radius:6px;
+    padding:28px;
+  }
+  .coord-box .eyebrow{ display:block; margin-bottom:14px; }
+
+  /* ============ FOOTER ============ */
+  footer{
+    background:#141210;
+    color:rgba(244,237,224,0.6);
+    text-align:center;
+    padding:28px 0;
+    font-size:0.85rem;
+  }
+  footer a{ color:rgba(244,237,224,0.8); text-decoration:none; }
+  footer a:hover{ color:var(--ochre); }
+
+  /* ============ RESPONSIVE ============ */
+  @media (max-width:860px){
+    .hero-grid, .about-grid, .edu-grid, .contact-grid, .partners-grid{
+      grid-template-columns:1fr;
     }
-  </style>
+    .hero-copy h1{ font-size:2.5rem; }
+    .nav-links{
+      display:none;
+      position:absolute;
+      top:100%; left:0; right:0;
+      background:var(--paper);
+      flex-direction:column;
+      align-items:flex-start;
+      padding:20px 24px 28px;
+      border-bottom:1px solid var(--line);
+      gap:18px;
+    }
+    .nav-links.open{ display:flex; }
+    .nav-toggle{ display:flex; }
+    section{ padding:64px 0; }
+    .log-entry{ grid-template-columns:1fr; gap:8px; }
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    html{ scroll-behavior:auto; }
+    *{ transition:none !important; animation:none !important; }
+  }
+</style>
 </head>
 <body>
 
-  <!-- Navigation -->
-  <header>
-    <div class="container">
-      <nav>
-        <div class="logo">PETRONEXUS</div>
-        <div class="nav-links">
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#services">Services</a>
-          <a href="#partners">Partners</a>
-          <a href="#contact">Contact</a>
-        </div>
-      </nav>
-    </div>
-  </header>
+<a href="#main" class="skip-link">Skip to content</a>
 
-  <!-- Hero -->
+<!-- ================= HEADER ================= -->
+<header>
+  <div class="container">
+    <nav>
+      <a href="#home" class="logo"><span class="mark" aria-hidden="true"></span>PETRONEXUS</a>
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" id="navToggle">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#edu">Petronexus Edu</a>
+        <a href="#partners">Partners</a>
+        <a href="#contact" class="cta">Contact</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ================= HERO ================= -->
   <section id="home">
-    <div class="container">
-      <h1>PETRONEXUS</h1>
-      <div class="tagline">Precision Earth Insights</div>
-      <p class="intro">
-        Delivering expert petrographic analysis and integrated geotechnical solutions through scientific coordination and trusted partnerships.
-      </p>
-      <p class="intro">
-        Petronexus is founded and managed by earth science professionals with strong academic and field expertise in geology, petrology, and subsurface studies.
-        We serve as the scientific interface between clients and specialized technical providers — ensuring investigations are precisely scoped, rigorously executed, and accurately interpreted.
-      </p>
-    </div>
-  </section>
-
-  <!-- About -->
-  <section id="about" style="background:#FAF5F0;">
-    <div class="container">
-      <h2>About Petronexus</h2>
-      <div class="content">
-        <p>Petronexus is a professional earth science service provider led by experts in geology, petrology, thin-section microscopy, and subsurface exploration.</p>
-        <p>We specialize in coordinating high-quality investigations — from detailed petrographic analysis to comprehensive geotechnical and hydrological assessments — through strategic partnerships with accredited labs and specialists.</p>
-        <p>Our role ensures every project receives clear scientific oversight, accurate data interpretation, and actionable recommendations that support safe and efficient engineering decisions.</p>
-
-        <h3 style="margin-top:40px; color:#4A2C0B;">Petronexus Edu</h3>
-        <p>Our dedicated initiative to advance practical knowledge in geology and petrology. We deliver focused workshops, guides, webinars, and training sessions on rock/soil analysis, material identification, and applied earth science topics for students, professionals, and industry teams.</p>
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow light">Earth Science Consulting · Kozhikode, Kerala</span>
+        <h1>Precision Earth Insights</h1>
+        <p class="tagline">Every project starts with what the ground actually tells you.</p>
+        <p>Petronexus is founded and managed by earth science professionals with strong academic and field expertise in geology, petrology, and subsurface studies.</p>
+        <p>We serve as the scientific interface between clients and specialised technical providers — ensuring investigations are precisely scoped, rigorously executed, and accurately interpreted.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Start a project</a>
+          <a href="#services" class="btn btn-outline">See our services</a>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- Services -->
+  <!-- ================= ABOUT ================= -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div>
+          <span class="eyebrow">About Petronexus</span>
+          <h2 style="margin:14px 0 20px;">Scientific oversight, from outcrop to report</h2>
+          <p>Petronexus is a professional earth science service provider led by experts in geology, petrology, thin-section microscopy, and subsurface exploration.</p>
+          <p>We specialise in coordinating high-quality investigations — from detailed petrographic analysis to comprehensive geotechnical and hydrological assessments — through strategic partnerships with accredited labs and specialists.</p>
+          <p>Our role ensures every project receives clear scientific oversight, accurate data interpretation, and actionable recommendations that support safe and efficient engineering decisions.</p>
+        </div>
+        <div class="field-note">
+          <span class="eyebrow">Why a scientific interface?</span>
+          <h3>One point of accountability</h3>
+          <p>Instead of juggling separate labs, drillers, and surveyors, you work with a single team of geologists who scope the investigation correctly the first time, sit across accredited partners, and interpret the results in plain, engineering-ready language.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SERVICES ================= -->
   <section id="services">
     <div class="container">
-      <h2>Our Services</h2>
-      <div class="content">
-        <p>We provide expert coordination and delivery of essential earth material investigations:</p>
-        <ul class="services">
-          <li><strong>Petrographic / Petrological Analysis</strong><br>In-depth microscopic examination of rock and soil samples to determine mineral composition, texture, weathering characteristics, durability, and engineering suitability.</li>
-          <li><strong>Soil & Geotechnical Testing</strong><br>Comprehensive services including borehole drilling, sampling, in-situ tests, laboratory analysis (classification, strength, compaction), and foundation recommendations.</li>
-          <li><strong>Hydrological Surveys</strong><br>Groundwater assessment, aquifer mapping, infiltration studies, and hydrological data interpretation for water resource and environmental projects.</li>
-          <li><strong>Drone & Aerial Surveys</strong><br>Topographic mapping, site reconnaissance, and photogrammetry using drone technology for efficient large-scale or remote assessments.</li>
-          <li><strong>Petronexus Edu – Training & Knowledge Sharing</strong><br>Specialized sessions and resources on geology, petrography, and subsurface techniques — tailored for educational institutions, professionals, and organizations.</li>
-        </ul>
+      <div class="section-head">
+        <div class="strata-rule"></div>
+        <span class="eyebrow" style="margin-top:16px;">What we do</span>
+        <h2>Our Services</h2>
+        <p>Expert coordination and delivery of essential earth material investigations.</p>
+      </div>
+
+      <div class="log">
+        <div class="log-entry">
+          <div class="log-id">S-01<span class="depth">Petrography</span></div>
+          <div>
+            <h3>Petrographic / Petrological Analysis</h3>
+            <p>In-depth microscopic examination of rock and soil samples to determine mineral composition, texture, weathering characteristics, durability, and engineering suitability.</p>
+          </div>
+        </div>
+
+        <div class="log-entry">
+          <div class="log-id">S-02<span class="depth">Geotechnical</span></div>
+          <div>
+            <h3>Soil & Geotechnical Testing</h3>
+            <p>Comprehensive services including borehole drilling, sampling, in-situ tests, laboratory analysis (classification, strength, compaction), and foundation recommendations.</p>
+          </div>
+        </div>
+
+        <div class="log-entry">
+          <div class="log-id">S-03<span class="depth">Hydrology</span></div>
+          <div>
+            <h3>Hydrological Surveys</h3>
+            <p>Groundwater assessment, aquifer mapping, infiltration studies, and hydrological data interpretation for water resource and environmental projects.</p>
+          </div>
+        </div>
+
+        <div class="log-entry">
+          <div class="log-id">S-04<span class="depth">Aerial</span></div>
+          <div>
+            <h3>Drone & Aerial Surveys</h3>
+            <p>Topographic mapping, site reconnaissance, and photogrammetry using drone technology for efficient large-scale or remote assessments.</p>
+          </div>
+        </div>
+
+        <div class="log-entry" style="border-bottom:none;">
+          <div class="log-id">S-05<span class="depth">Training</span></div>
+          <div>
+            <h3>Petronexus Edu — Training & Knowledge Sharing</h3>
+            <p>Specialised sessions and resources on geology, petrography, and subsurface techniques — tailored for educational institutions, professionals, and organisations.</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- Partners -->
-  <section id="partners" style="background:#FAF5F0;">
+  <!-- ================= EDU ================= -->
+  <section id="edu">
+    <div class="container edu-grid">
+      <div>
+        <span class="eyebrow">Petronexus Edu</span>
+        <h2>Practical geology, taught by people who do it in the field</h2>
+        <p>Our dedicated initiative to advance practical knowledge in geology and petrology — workshops, guides, webinars, and training sessions on rock/soil analysis, material identification, and applied earth science topics.</p>
+        <a href="mailto:info@petronexus.in?subject=Petronexus%20Edu%20enquiry" class="btn btn-primary">Enquire about a session</a>
+      </div>
+      <ul class="edu-list">
+        <li>Rock & soil sample identification workshops</li>
+        <li>Thin-section microscopy training</li>
+        <li>Applied petrography for civil engineers</li>
+        <li>Campus talks & guided field sessions</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= PARTNERS ================= -->
+  <section id="partners">
     <div class="container">
-      <h2>Our Network of Excellence</h2>
+      <div class="section-head">
+        <div class="strata-rule"></div>
+        <span class="eyebrow" style="margin-top:16px;">Who we work with</span>
+        <h2>Our Network of Excellence</h2>
+        <p>Investigations delivered through strategic partnerships with accredited labs and specialists.</p>
+      </div>
+
       <div class="partners-grid">
-        <div class="partner">
-          <img src="https://via.placeholder.com/180x60/4A2C0B/FFFFFF?text=Matterlab" alt="Matterlab Logo">
-          <p><strong>Matterlab</strong> (Kozhikode, Kerala)<br>NABL-accredited specialists in geotechnical investigation, construction materials testing, soil analysis, calibration, and more.</p>
+        <div class="partner-card">
+          <span class="partner-mark">MATTERLAB</span>
+          <h3>Matterlab</h3>
+          <span class="partner-loc">Kozhikode, Kerala</span>
+          <p class="desc">NABL-accredited specialists in geotechnical investigation, construction materials testing, soil analysis, calibration, and more.</p>
         </div>
-        <div class="partner">
-          <img src="https://via.placeholder.com/180x60/4A4A4A/FFFFFF?text=CGL" alt="CGL Logo">
-          <p><strong>CGL Geoinformatics / CGL Engineers</strong> (Kochi, Kerala)<br>Established experts in geotechnical engineering, soil and rock testing, pile investigations, and structural solutions.</p>
+        <div class="partner-card">
+          <span class="partner-mark">CGL</span>
+          <h3>CGL Geoinformatics / CGL Engineers</h3>
+          <span class="partner-loc">Kochi, Kerala</span>
+          <p class="desc">Established experts in geotechnical engineering, soil and rock testing, pile investigations, and structural solutions.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Contact -->
+  <!-- ================= CONTACT ================= -->
   <section id="contact">
-    <div class="container">
-      <h2>Get in Touch</h2>
-      <div class="content" style="text-align:center;">
-        <p><strong>Petronexus</strong><br>
-        Kozhikode, Kerala, India</p>
+    <div class="container contact-grid">
+      <div>
+        <span class="eyebrow">Get in touch</span>
+        <h2>Let's scope your investigation</h2>
+        <p>Tell us about your site and what you need to know about it — we'll advise on the right combination of surveys before any work begins.</p>
 
-        <p>
-          Email: <a href="mailto:info@petronexus.in">info@petronexus.in</a><br>
-          Partner with us: <a href="mailto:partner@petronexus.in">partner@petronexus.in</a><br>
-          Phone / WhatsApp: +91 [your number]
-        </p>
+        <div class="contact-detail">
+          <span class="k">Location</span>
+          <span class="v">Kozhikode, Kerala, India</span>
+        </div>
+        <div class="contact-detail">
+          <span class="k">Email</span>
+          <span class="v"><a href="mailto:info@petronexus.in">info@petronexus.in</a></span>
+        </div>
+        <div class="contact-detail">
+          <span class="k">Partnerships</span>
+          <span class="v"><a href="mailto:partner@petronexus.in">partner@petronexus.in</a></span>
+        </div>
+        <div class="contact-detail">
+          <!--
+            EDIT-ME: this is a sample placeholder number.
+            Replace "+91 00000 00000" below (both places) with your real number once ready.
+          -->
+          <span class="k">Phone</span>
+          <span class="v">
+            <a href="tel:+910000000000">+91 00000 00000</a>
+            <small>Sample number — replace with your real contact number</small>
+          </span>
+        </div>
+      </div>
+
+      <div class="coord-box">
+        <span class="eyebrow">Field note</span>
+        <p style="color:rgba(244,237,224,0.75); margin-bottom:0;">Most projects begin with a short site description and, where available, any existing survey or drawing. Send what you have to <a href="mailto:info@petronexus.in" style="color:var(--ochre); text-decoration:none;">info@petronexus.in</a> and we'll come back with a scope and estimate.</p>
       </div>
     </div>
   </section>
 
-  <footer>
-    <div class="container">
-      <p>© 2026 Petronexus. All rights reserved.</p>
-    </div>
-  </footer>
+</main>
+
+<footer>
+  <div class="container">
+    <p>&copy; 2026 Petronexus, Kozhikode, Kerala. All rights reserved. &nbsp;·&nbsp; <a href="mailto:info@petronexus.in">info@petronexus.in</a></p>
+  </div>
+</footer>
+
+<script>
+  // Mobile nav toggle
+  var navToggle = document.getElementById('navToggle');
+  var navLinks = document.getElementById('navLinks');
+  navToggle.addEventListener('click', function(){
+    var isOpen = navLinks.classList.toggle('open');
+    navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  });
+  // Close mobile menu after a link is tapped
+  navLinks.querySelectorAll('a').forEach(function(link){
+    link.addEventListener('click', function(){
+      navLinks.classList.remove('open');
+      navToggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+</script>
 
 </body>
 </html>
