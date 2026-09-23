@@ -1,0 +1,1 @@
+Open index.html. Upload all files and folders to GitHub Pages preserving the structure. The project form currently uses mailto; replace it with a real form backend when ready.
